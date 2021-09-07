@@ -1,0 +1,324 @@
+/* -------------Seccion #1---------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+#probando{
+    z-index: 2;
+    color: rgb(0, 0, 0);
+}
+
+.About{
+
+    width: 100%;
+    background-color: #0F0E17;
+
+
+}
+
+.Container{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    color: white;
+    z-index: 2;
+    box-shadow: 1px 1px 5px #000;
+    position: fixed;
+    padding-inline-start: 190px;
+    background-color: #0F0E17;
+}
+
+.list{
+
+    display: flex;
+    
+}
+
+.list-Total{
+
+    padding-top: auto;
+    margin: 40px;
+    
+}
+
+.botonCurriculo{
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+    padding-left: 50px;
+    padding-right: 40px;
+    font-size: 30px;
+    color: white;
+    background-color: #FF8906;
+    border-color: 4px solid #ffffff;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+.botonCurriculo:hover{
+
+    background-color: antiquewhite;
+    color: #FF8906;
+    border-color: #FF8906;
+}
+.logo{
+
+    margin-top: 35px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title{
+ 
+    color: rgb(255, 255, 255);
+    margin-top: 180px;
+    padding-left: 170px;
+    font-size: 45px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.parrafo{
+    font-size: 35px;
+    color: rgb(109, 109, 109);
+}
+
+.container_1{
+
+    padding-top: 10px;
+    padding-bottom: 100px;
+    background-color: #0F0E17;
+    
+}
+
+.PerfilFoto{
+
+    margin-left: 1100px;
+    margin-top: -400px;
+ 
+}
+
+.list-Total:hover{
+
+color: #FF8906;
+}
+
+/* -------------Seccion #2---------------- */
+
+.title_2{
+
+    position: relative;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    padding-block: 110px;
+    margin-left: 170px;
+    display: flex;
+}
+
+.Parrafo_2{
+
+    margin-left: 100px;
+}
+
+.PaginaEj{
+
+    margin-left: 200px;
+    margin-top: -90px;
+    width: 800px;
+   
+}
+
+.PaginaEj_1{
+
+    margin-left: 100px;
+    margin-top: -90px;
+    width: 800px;
+    z-index: -0;
+}
+
+.descripcionPaginas{
+
+    
+    width: 20%;
+    margin-top: -90px;
+    margin-left: 100px;
+   padding-bottom: 30px;
+    background-color: #0F0E17;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: 30px;
+}
+
+.titleMiShop{
+
+    font-size: 60px;
+    font-family: 'Nunito', sans-serif;
+   
+}
+
+.botonMiShop{
+
+    width: 300px;
+    padding-top: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FF8906;
+    color: white;
+    transition: 0.5s;
+    
+}
+.botonMiShop:hover{
+
+    background-color: rgb(255, 255, 255);
+    color: #FF8906;
+}
+
+.descripcionNETNET{
+
+    width: 20%;
+    margin-top: -290px;
+    margin-left: 1040px;
+   padding-bottom: 30px;
+    background-color: #0F0E17;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: 30px;
+}
+
+.botonNETNET{
+
+    width: 300px;
+    padding-top: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FF8906;
+
+    color: white;
+    transition: 0.5s;
+}
+
+.botonNETNET:hover{
+
+    background-color: rgb(255, 255, 255);
+    color: #FF8906;
+}
+
+/* -------------Servicios---------------- */
+
+.Container_2{
+
+    background-color: #FEB692;
+    
+}
+
+.title_Servicios{
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    margin-left: 140px;
+    padding-top: 140px
+
+
+}
+
+.DiseñoName{
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 45px; 
+    padding-top: 20px;
+    border: 2px rgb(0, 0, 0);
+}
+
+.Servicios_1{
+
+    font-family: 'Nunito', sans-serif;
+    margin-left: 140px;
+    font-size: 30px;
+}
+
+.BotonServicios{
+
+    width: 300px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #0F0E17;
+
+    color: #FF8906;
+    transition: 0.5s;
+}
+
+.BotonServicios:hover{
+
+    background-color: rgb(255, 255, 255);
+    color: #FF8906;
+}
+
+.Servicios_2{
+
+    
+    font-family: 'Nunito', sans-serif;
+    margin-left: 340px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.Contents{
+
+    display: flex;
+}
+
+/*---------------------- Testimonios ------------------------*/
+
+.Title_Testimonio{
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 85px; 
+    padding-top: 20px;
+    margin-left: 140px;
+    padding-top: 140px;
+    color: white;
+}
+
+.Nombres_Testimonios{
+
+    color: #FF8906;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 140px;
+}
+
+.Comentarios_1{
+
+    display: flex;
+    margin-left: 140px;
+    color: white;
+    font-size: 29px;
+    scroll-padding-left:  50px;
+}
+
+.container_3{
+
+    background-color: #0F0E17;
+}
+
+.Parrafo_3{
+
+    padding-left: 190px;
+    padding-top: 80px;
+}
